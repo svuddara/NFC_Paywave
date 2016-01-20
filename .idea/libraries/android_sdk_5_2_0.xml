@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-sdk-5.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.card/android-sdk/5.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/io.card/android-sdk/5.2.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.card/android-sdk/5.2.0/72a4e0069eddf945b09af47da1dc9408ce74a4aa/android-sdk-5.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

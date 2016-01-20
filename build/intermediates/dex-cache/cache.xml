@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-db89892aec7cf65ea15aa6c77c436cb1ba0850f2.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/io.card/android-sdk/5.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2dbdfe360d1faafca55cb0bdff83ade662024cc8">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-964158a03fb95547b3c4c72a17a705d08b61fe20.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-5c01b39f4a04e7e8ba11be478dbc05ef47583179.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-497f6772087e8bb93a7d2574b2dd9ff85ced9d01.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.jumio.android/jumio-mobile-sdk/1.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4f61ade205ef3639d6e861e5a3a69349ab2d2083">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-b48ab5e06eff9a03cd068986b785b7fca36a4238.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-d09055ff7663534e86c502abf976d7d77bd24707.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.jumio.android/netverify-resources/1.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5f37ee7f6df7a0f93ed3f3d4e1e429f3523380e3">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-2bc98bf61a87f69ade3a1caad25d8fc7d753e9e9.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-c8ce53e9f99006503c5e94568dd03e7a0ff693c3.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-725ececce07727259c05b35de508c2952e4e4136.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/build/intermediates/exploded-aar/com.jumio.android/netswipe-resources/1.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb3870428a699768b7865bb4f690a0844dc90ae">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/classes-22d83e1395d674125d94431e63d9fdfd4098f28c.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/libs/eventbus-3.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4a559b2dfb3e8a00ed37c440e118584f60db046">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0-beta1-fb31bba4bf455f558d3608c545b5a2fdae0eefa7.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/gson-2.3.1-9219d741aa4768913c7a8c0069076b27db44fd8b.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/Downloads/NFC/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d863bad48480f60e07e5e885b8cbeb978459baba">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/volley-d6c8bedf834c25405396c6dab4a05c2a4ceabfd0.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/commons-lang3-3.0-22cfebcf1041f50e2f90aab720f2c9ebb07435c9.jar" />
+    </item>
+    <item
+        jar="/Users/Sowmya/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/Sowmya/Downloads/NFC/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-a1676346e25f70f8e370ba1930b98cc4c836c350.jar" />
+    </item>
+
+</items>
