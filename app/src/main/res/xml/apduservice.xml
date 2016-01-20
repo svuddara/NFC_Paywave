@@ -1,0 +1,12 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:apduServiceBanner="@drawable/visa_hce_banner"
+    android:description="@string/VCHCEServiceDescription"
+    android:requireDeviceUnlock="false">
+    <aid-group
+        android:category="payment"
+        android:description="@string/payment_group">
+        <aid-filter android:name="325041592E5359532E4444463031" android:description="@string/ppse_aid"/>
+        <aid-filter android:name="A0000000041010" android:description="@string/mastercard_aid"/>
+        <aid-filter android:name="A0000000031010" android:description="@string/visa_aid"/>
+    </aid-group>
+</host-apdu-service>

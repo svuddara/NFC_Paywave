@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">NFC</string>
+    <string name="welcome_text">Instant line of credit up to $2500.\nReady to use immediately.</string>
+    <string name="personal_info_title">Personal Information</string>
+    <string name="personal_info_text">Please provide the following information below.</string>
+    <string name="email_title">Email Address</string>
+    <string name="ssn_title">Last 4 Digits of Social Security #</string>
+    <string name="tnc">By clicking create account you agree to the terms and conditions.</string>
+    <string name="address">Brandon Smith\nOne Market Center\nSan Francisco CA 94015</string>
+    <string name="create_pin_title">Create PIN#</string>
+    <string name="create_pin_text">Create a 4 digit PIN number.</string>
+    <string name="pin_title">4 Digit PIN</string>
+    <string name="confirm_pin_title">Confirm PIN</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="dummy">Bank Name FDNB\nRouting Number 241378965\nAccount Number 1122334154</string>
+    <string name="payment_info_title">Payment Information</string>
+    <string name="payment_info_text">To make one time funding of the card, please fill out the details below.</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiration Date</string>
+    <string name="card_sec_code">Card Security Code</string>
+    <string name="amount_deposit">Amount I wish to deposit</string>
+    <string name="congrats_text">This card has been added to your digital wallet.\nWould you like to receive a card in the mail?</string>
+    <string name="continue_add_funds">You can continue adding funds to your account. Get your money funded today.</string>
+    <string name="dummy_card_num">4111111111111111</string>
+    <string name="dummy_expiry">12/17</string>
+    <string name="amount_hint">&lt; $1000</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="camera_description_dl">Please take a picture of the front of your driver\'s license</string>
+    <string name="camera_description_check">Please take a picture of check</string>
+    <string name="camera_description_card">Please take a picture of the front of your credit card</string>
+    <string name="transaction_cancelled">Transaction cancelled.</string>
+    <string name="activity_tap_n_pay">Tap and Pay</string>
+    <string name="VCHCEServiceDescription">ANZ Digital Issuance Demo</string>
+    <string name="payment_group">paymentGroup</string>
+    <string name="visa_aid">Visa AID</string>
+    <string name="ppse_aid">PPSE AID</string>
+    <string name="mastercard_aid">MASTERCARD AID</string>
+</resources>

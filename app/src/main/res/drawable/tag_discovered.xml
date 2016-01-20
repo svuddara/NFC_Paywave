@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list   android:id="@+id/myprogress" android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/pre_arrows_01" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_02" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_03" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_04" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_05" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_06" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_07" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_08" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_09" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_10" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_11" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_12" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_13" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_14" android:duration="120" />
+    <item android:drawable="@drawable/pre_arrows_15" android:duration="120" />
+
+</animation-list>

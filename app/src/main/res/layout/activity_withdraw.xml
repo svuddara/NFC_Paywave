@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page_background"
+    tools:context="nfc.com.visa.nfc.activities.WithdrawActivity">
+
+    <include
+        android:id="@+id/omc_toolbar"
+        layout="@layout/visa_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/omc_toolbar"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/card_pager"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gold_card"/>
+
+        <nfc.visa.com.nfc.widgets.TextViewRegular
+            android:id="@+id/withdrawTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Withdrawal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/card_pager"/>
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/withdrawTxt"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/line" />
+
+        <RelativeLayout
+            android:id="@+id/avbl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <!--<nfc.visa.com.nfc.widgets.TextViewLight-->
+                <!--android:id="@+id/avbl_bal"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Available Balance"-->
+                <!--android:textColor="@color/white"-->
+                <!--/>-->
+
+            <!--<nfc.visa.com.nfc.widgets.TextViewLight-->
+                <!--android:id="@+id/actual_balance"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--/>-->
+        </RelativeLayout>
+
+        <nfc.visa.com.nfc.widgets.TextViewRegular
+            android:id="@+id/enter_amount_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/avbl_layout"
+            android:layout_marginTop="20dp"
+            android:text="Enter Amount"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/enter_amount_input"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/enter_amount_text"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:hint="$40"
+            android:textColorHint="@color/light_grey"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="PAYWAVE"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shape_button_border"
+            android:onClick="paywaveClick"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

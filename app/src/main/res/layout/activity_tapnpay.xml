@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="top"
+    android:id="@+id/rlTapNPay">
+    <ImageView
+        android:background="@drawable/tapnpay_card_art_bg"
+        android:padding="1dp"
+        android:id="@+id/cardArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/card_art_accounts"
+        android:layout_marginTop="106dp"  />
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="106dp">
+        <TextView
+            android:layout_centerInParent="true"
+            android:id="@+id/tvHelperTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:text="Ready to Pay"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+        <ImageView
+            android:layout_centerInParent="true"
+            android:id="@+id/nfcLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nfc_logo"  />
+        </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="106dp"
+        android:id="@+id/chevron"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  />
+    <RelativeLayout
+        android:id="@+id/rlComplete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imgCard"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_success_check"/>
+
+        <TextView
+            android:id="@+id/tvPayComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Tansaction Complete"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imgCard"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</RelativeLayout>
